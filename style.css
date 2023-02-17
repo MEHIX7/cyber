@@ -1,0 +1,134 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header_top {
+    margin-top: 0px;
+    background: url(mac_overley.jpeg) no-repeat center/cover;
+    height: 360px;
+    position: relative;
+}
+
+.header_top p {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-left: 3px solid #051668;
+    padding: 0px 0px 0px 8px;
+}
+
+.header_top a {
+    position: relative;
+    font-size: 1em;
+    color: #ffffff;
+}
+
+.header_top img {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 90px;
+    height: 90px;
+    width: 90px;
+    border-radius: 5px;
+}
+
+div.logo_social_network img {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    top: 160px;
+}
+
+
+a.btn_contact {
+    color: rgb(255, 255, 255);
+    border: 3px solid #3006da;
+    top: 110px;
+    border-radius: 10px;
+    font-weight: 800;
+    margin-top: 40px;
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: black;
+    transition: all 0.5s;
+}
+
+a.btn_contact:hover {
+    border-color: beige;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.header_top h1  {
+    position: relative;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 28px;
+    color: white;
+    top:100px;
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#separateur {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    background-color: #5B2537;
+    height: 2px;
+    border-radius: 10px;
+}
+
+div.present_model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div.present_model video {
+    padding: 5px 0px;
+    border: 2px solid #6f061e;
+    border-radius: 2px;
+    width: 90%;
+    height: 200px;
+}
+
+div.present_model2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div.present_model2 iframe {
+    padding: 0px 0px;
+    border: 2px solid #6f061e;
+    border-radius: 2px;
+    width: 90%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
