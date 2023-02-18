@@ -131,4 +131,36 @@ div.present_model2 iframe {
     margin-bottom: 20px;
 }
 
+@media screen and (min-width: 760px) {
+div.present_model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+
+div.present_model video {
+    padding: 5px 0px;
+    border: 2px solid #6f061e;
+    border-radius: 2px;
+    width: 90%;
+    height: 500px;
+}
+
+div.present_model2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div.present_model2 iframe {
+    padding: 0px 0px;
+    border: 2px solid #6f061e;
+    border-radius: 2px;
+    width: 90%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+    
+}
